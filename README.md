@@ -19,3 +19,5 @@ These run with a basic pipeline:
 1. Homography loading (from corresponding VIRAT file, or manualy input after selection from computer)
 2. Detection loop (with calibration during the first frame with people)
 
+Currently, the camera pose calculation is set up such that the angle under 90 degrees should be chosen. 
+
