@@ -10,7 +10,7 @@ This is intended to be run locally, since Google Colaboratory does not support X
 3. top right
 4. top left
 
-Double clicking on a point in the image will create a dot, indicating the selected location. Once four points have been selected, the user can double click near points to shift them. Additionally, a green grid will be displayed to help guide selection. This grid may be difficult to work with at first, as poor selections will make strange vanishing points. However, after adjustments are made, an ideal selection will make it very clear where the ground plane is.
+Double clicking on a point in the image will create a dot, indicating the selected location. Once four points have been selected, the user can double click near points to shift them. Additionally, a green grid will be displayed to help guide selection. This grid may be difficult to work with at first, as poor selections will make strange vanishing points. However, after adjustments are made, an ideal selection will make it very clear where the ground plane is. When the desired grid has been selected, hit ESC to return. The homography of interest will be displyed in the jupyter notebook, which can be copied (with comas added) into the Colaboratory notebook.
 
 ## Detection pipeline
 The following notebooks are meant to be run on Google Colaboratory. Two notebooks are provided, preloaded with information for a simple run of some VIRAT example data. `people_detector.ipynb` draws circles on an overhead view without any indication of violating social distance while `people_detector_distancing_visualization.ipynb` changes circle color based on violations. These notebooks are meant to be run on Google Colaboratory to leverage the GPUs provided. 
