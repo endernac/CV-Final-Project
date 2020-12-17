@@ -1,6 +1,8 @@
 # CV-Final-Project
 Computer Vision Social Distancing Final Project
 
+https://github.com/endernac/CV-Final-Project
+
 There are two main components to this project:
 
 ## User-based homography selection
